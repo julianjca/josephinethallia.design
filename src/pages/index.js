@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import Landing from '../components/Landing'
 import About from '../components/About'
 import Projects from '../components/Projects'
-import Image from '../components/image'
+import Footer from '../components/Footer'
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -20,6 +20,7 @@ const IndexPage = () => (
     <Landing/>
     <About/>
     <Projects/>
+    <Footer/>
   </Layout>
 )
 

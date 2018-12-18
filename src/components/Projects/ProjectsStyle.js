@@ -24,6 +24,7 @@ padding-top : 5%;
 font-size : 1.5rem;
 font-family : 'Fjalla One';
 text-transform : uppercase;
+font-weight : 300;
 `;
 
 export const GridContainer = styled.div`
