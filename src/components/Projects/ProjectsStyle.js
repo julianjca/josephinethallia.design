@@ -8,7 +8,8 @@ justify-content : center;
 align-items : center;
 background-color : #FFF;
 color : ${ BLUE };
-height : 50vh;
+min-height : 100vh;
+padding-bottom : 10%;
 flex-direction : column;
 `;
 
@@ -18,8 +19,17 @@ font-family : 'Fjalla One';
 text-transform : uppercase;
 `;
 
-export const P = styled.p`
-font-size : 1.2rem;
-text-align : center;
-width : 100%;
+export const H3 = styled.h2`
+padding-top : 5%;
+font-size : 1.5rem;
+font-family : 'Fjalla One';
+text-transform : uppercase;
+`;
+
+export const GridContainer = styled.div`
+display : grid;
+grid-template-columns : 1fr 1fr;
+grid-gap : 50px;
+width : 80%;
+letter-spacing : 5px;
 `;
