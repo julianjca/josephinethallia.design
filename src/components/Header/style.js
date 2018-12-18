@@ -3,7 +3,7 @@ import { BLUE, PINK } from '../../styles/colors';
 
 export const OuterContainer = styled.div`
 display : grid;
-grid-template-columns : 1fr 3fr;
+grid-template-columns : 1fr 2fr;
 background-color : ${ BLUE };
 height : 80px;
 position : absolute;
@@ -26,6 +26,7 @@ list-style : none;
 color : ${ PINK };
 display : inline-block;
 padding-right : 50px;
+font-size : 0.9rem;
 `;
 
 export const Ul = styled.ul`
@@ -35,4 +36,5 @@ display : inline-block;
 export const H2 = styled.h2`
 font-family : 'Fjalla One';
 color : ${ PINK };
+font-size : 1.3rem;
 `
