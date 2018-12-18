@@ -5,6 +5,7 @@ export const OuterContainer = styled.div`
 display : grid;
 grid-template-columns : 1fr 3fr;
 background-color : ${ BLUE };
+height : 80px;
 `;
 
 export const InnerContainer = styled.div`
