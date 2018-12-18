@@ -6,6 +6,9 @@ display : grid;
 grid-template-columns : 1fr 3fr;
 background-color : ${ BLUE };
 height : 80px;
+position : absolute;
+left : 0;
+right : 0;
 `;
 
 export const InnerContainer = styled.div`
