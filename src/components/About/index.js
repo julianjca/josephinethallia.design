@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, H2, P } from './AboutStyle';
 
-const Landing = () => (
+const About = () => (
   <Container>
     <H2>About Me</H2>
     <P>
@@ -12,4 +12,4 @@ const Landing = () => (
   </Container>
 );
 
-export default Landing;
+export default About;
