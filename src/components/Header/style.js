@@ -3,7 +3,7 @@ import { BLUE, PINK } from '../../styles/colors';
 
 export const OuterContainer = styled.div`
 display : grid;
-grid-template-columns : 1fr 2fr;
+grid-template-columns : 1fr 2.5fr;
 background-color : ${ BLUE };
 height : 80px;
 position : absolute;
