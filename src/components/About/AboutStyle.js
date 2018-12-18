@@ -13,13 +13,13 @@ flex-direction : column;
 `;
 
 export const H2 = styled.h2`
-font-size : 2rem;
+font-size : 2.2rem;
 font-family : 'Fjalla One';
 text-transform : uppercase;
 `;
 
 export const P = styled.p`
-font-size : 1.3rem;
+font-size : 1.2rem;
 text-align : center;
-width : 60%;
+width : 100%;
 `;
