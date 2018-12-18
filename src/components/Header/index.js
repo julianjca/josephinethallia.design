@@ -1,5 +1,3 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
 import { OuterContainer, InnerContainer, Ul, Li, H2 } from './style';
 
@@ -18,13 +16,5 @@ const Header = () => (
     </InnerContainer>
   </OuterContainer>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: '',
-}
 
 export default Header;
