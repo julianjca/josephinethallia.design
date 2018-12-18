@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { BLUE, PINK } from './colors';
+import { BLUE, PINK } from '../../styles/colors';
 
 export const Landing = styled.div`
 background-color : ${BLUE};
@@ -19,7 +19,7 @@ align-items : center;
 
 export const H1 = styled.div`
 text-align : center;
-font-size : 3.7rem;
+font-size : 3.2rem;
 font-weight : 700;
 color : ${ PINK };
 `

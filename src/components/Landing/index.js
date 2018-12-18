@@ -1,7 +1,7 @@
 import React from 'react';
 import { Landing, H1 } from './LandingStyle';
 
-const Landing = () => (
+const LandingContainer = () => (
   <Landing>
     <H1>Hello! <br/>
       I’m Josephine Thallia, <br/>
@@ -10,4 +10,4 @@ const Landing = () => (
   </Landing>
 );
 
-export default Landing;
+export default LandingContainer;

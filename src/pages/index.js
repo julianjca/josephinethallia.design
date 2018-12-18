@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 
 import Layout from '../components/layout'
 import Landing from '../components/Landing'
+import About from '../components/About'
 import Image from '../components/image'
 import SEO from '../components/seo';
 
@@ -16,6 +17,7 @@ const IndexPage = () => (
     </Helmet>
     <SEO title="Home" keywords={['graphic designer', 'designer', 'ui', 'ux']} />
     <Landing/>
+    <About/>
   </Layout>
 )
 
